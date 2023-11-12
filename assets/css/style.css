@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+
+
+* {
+  font-family: "Montserrat", Helvetica, Arial;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background: #0095FF;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+  a:hover {
+    color: white;
+  }
+
+#announcement-bar {
+  background: #0a38a0;
+  color: #ffff00;
+  padding-top: 8px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.display-1 {
+  font-size: 6rem;
+  margin-bottom: 4rem !important;
+}
+
+.lead {
+  font-size: 1.5rem;
+}
+
+.text-black {
+  color: black !important;
+}
+
+.btn {
+  border: 4px solid transparent;
+  text-transform: uppercase;
+
+  padding: 12px 32px;
+  text-align: center;
+  margin: 10px 10px;
+  font-weight: bold;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary {
+  color: #000000;
+  background-color: #ffff00;
+  border-color: #000000;
+
+}
+.btn-primary:hover {
+}
+
+.btn-lg {
+  border-radius: 60px;
+  padding: 1rem !important;
+}
+
+#team img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  width: 40%;
+}
+
+#team p {
+  color: #f4f4f4;
+}
+
+.team-social a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+.team-social a:hover {
+  color: #1A4869;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background: rgba(0,0,0,0);
+}
+
+.footer p a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+.footer p a:hover {
+  color: #1A4869;
+}
+
+/*LOGO SHADOW EFFECT*/
+
+.shadow-effects{
+    /*font-size:80px;*/
+    font-weight:bold;
+    color: transparent;
+    letter-spacing: .10em;
+    text-shadow:
+      -9px -8px 2px rgba(193, 94, 221, 0.43),
+      1px -1px 0 #fe6161,
+      2px 1px 3px #737272,
+      3px 3px 1px #37408C;
+}
+@media only screen and (max-width: 767px) {
+    .shadow-effects{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 479px) {
+    .shadow-effects{
+        font-size: 24px;
+    }
+}
+
